@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: zelda;
+    src: url("fonts/zelda.ttf");
+}
+
+@font-face {
+    font-family: zelda2;
+    src: url("fonts/zelda2.woff2");
+}
+
+body {
+    background: url("images/white.jpg");
+	background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+a { 
+	text-decoration: none;
+	margin: 50px 0;
+}
+
+h1 {
+	font-family: Roboto, sans-serif;
+	font-size: 60px;
+	padding: 20px 10px;
+}
+
+h3 {
+	font-size: 40px;
+	font-family: zelda2;
+}
+
+h3 {
+	font-size: 40px;
+	font-family: zelda2;
+	margin: 20px 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.header {
+	background:url("images/black.jpg");
+	font-size: 40px;
+	color: WhiteSmoke;
+	padding: 0 10px;
+	font-family: zelda2;
+	background-color: #333;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin: 15px 20px;
+}
+
+#logo {
+	font-size: 40px;
+	color: Goldenrod;
+	font-family: zelda;
+}
+
+.jumbotron {
+	background: url("images/field.jpg") no-repeat center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 550px;
+	width: auto;
+	text-align: center;
+}
+
+.head-content {
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	font-family: roboto;
+	top: 70px;
+    width: 70%;
+}
+
+.head-content img {
+	position: relative;
+	width:450px; /* you can use % */
+    height: auto;
+	margin: 0px 0 5px 0;
+}
+
+.btn {
+    border: 2px solid WhiteSmoke;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: zelda2;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.btn:hover {
+    border: 2px solid WhiteSmoke;
+    background-color: rgba(169, 167, 178, 0.6);
+    border-radius: 5px;
+    color: #FFF;
+    font-family: zelda2;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.buy {
+	width: 90%;
+	overflow: hidden;
+	margin: 10px auto;
+    padding: 20px 0px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.container {
+	float: left;
+    width: 100%;
+    position: relative;
+    right: 50%;
+}
+
+#switch {
+  -webkit-box-shadow: 10px 10px 5px #888;
+  border-radius: 20px;
+  background:url("images/black.jpg");
+  float: left;
+  width: 40%;
+  padding: 30px;
+  position: relative;
+  left:52%;
+  overflow: hidden;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  color: WhiteSmoke;
+}
+
+#wiiu {
+  -webkit-box-shadow: 10px 10px 5px #888;
+  border-radius: 20px;
+  background:url("images/black.jpg");
+  float: right;
+  width: 40%;
+  padding: 30px;
+  position: relative;
+  left:50%;
+  overflow: hidden;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  color: WhiteSmoke;
+}
+
+.footer {
+	background: url(images/blue.jpg) repeat center bottom;
+	color: WhiteSmoke;
+	padding: 10px 20px;
+    box-sizing: border-box;
+	height: 120px;
+	font-family: roboto;
+}
+
+.footer img {
+	box-sizing: border-box;
+	position: relative;
+	float: right;
+	width: 80px;
+	height: auto;
+	top: 20px;
+}
